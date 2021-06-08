@@ -57,16 +57,6 @@ while True:
     # 検出顔数繰り返す
     for top, right, bottom, left in locations:
 
-        # 検出された顔の部分を切り取りfaceへ保存
-        face = frame[top:bottom, left:right]
-
-        # 顔の縦横サイズをface_height, face_widthに取得
-        (face_height, face_width) = face.shape[:2]
-
-        # 小さな顔を無視
-        if face_width < 20 or face_height < 20:
-            continue
-
         # 枠を顔の周りに描画
         cv2.rectangle(frame, (left, top), (right, bottom), (0, 255, 0), 2)
         
