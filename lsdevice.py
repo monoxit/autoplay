@@ -22,6 +22,6 @@ device_list = devices['devices']
 
 for device in device_list:
     #print(device)
-    print('device nanme:',device['name'])
+    print('device name:',device['name'])
     print('device id:',device['id'])
     print('')
