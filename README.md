@@ -66,7 +66,7 @@ python3 hog.py
   * List Spotify devices.
   
 * autoplay.py
- * Play Spotify playlist mapped to a detected face.
+  * Play Spotify playlist mapped to a detected face.
  
 * autoplayv2.py
   * Play Spotify playlist mapped to a detected face. Transfer playlist between multiple devices.  
