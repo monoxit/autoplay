@@ -26,6 +26,7 @@ python3 -c "import cv2; print(cv2.__version__)"
 sudo apt install -y libjpeg-dev
 pip3 --default-timeout=5000 install dlib
 pip3 --default-timeout=5000 install face_recognition
+pip3 install spotipy
 git clone https://github.com/monoxit/autoplay.git
 ```
 
